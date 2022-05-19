@@ -1,0 +1,84 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: rgba(165, 156, 156, 0.17);
+}
+h1, h5{
+    text-align: center;
+    color: #3f345f;
+
+}
+.container{
+    width: 350px;
+    height: 300px;
+    border: 2px solid #3f345f;
+    border-radius: 1em;
+    margin: auto;
+    align-items: center;
+    box-shadow: 0 0 60px rgba(93, 70, 232, 0.15);
+   border: 3px solid#ebe9e9;
+   background-color: rgba(197, 197, 197, 0.17);
+  
+    
+}
+input{
+    width: 70px;
+    height: 70px;
+    border-radius: 1em;
+    text-align: center;
+    font-size: larger;
+    border:inherit;
+    box-shadow: inset 0px 0px 10px rgba(46, 78, 109, 0.432);
+}
+input:focus{
+    box-shadow: 0 0 60px rgba(93, 70, 232, 0.15);
+    outline: none;
+    
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.row1{
+    height: 30%;
+    background-color: rgba(23, 160, 184, 0.17);
+    color: #17a2b8;
+    border-radius: 1em 1em 0 0;
+    text-align: center;
+
+}
+.results{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 65px;
+}
+.units{
+    color: #3f345f;
+    font: 12px;
+}
+.row2 {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding-top: 10px;
+    
+}
+.row3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+    gap: 1em;
+}
+button{
+    width: 60px;
+    height: 35px;
+    background-color: #e25300;
+    border:inherit;
+    border-radius: .5em;
+    color: #ffffff;
+}

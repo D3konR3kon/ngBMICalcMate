@@ -1,0 +1,35 @@
+
+<div class="container">
+    
+    <div class="row1">
+        <div class="result">
+        <span class="results">
+             {{n}}
+        </span>
+    </div>
+    </div>
+    <div class="row2">
+        <div class="col-6" >
+            <label for="weight"><span class="units">kg</span></label>
+            <br>
+            <input id="mass" [(ngModel)]="weight" type="number" width="100px" height="100px" name="" >
+        </div>
+        <div class="col-6" >
+            <label for="weight"><span class="units">cm</span></label>
+            <br>
+            <input id="height" [(ngModel)]="height" type="number" width="100px"height="100px"name="">
+        </div>
+    </div>
+    <div class="row3">
+        <button (click)="calc()" class="button">
+            Calc
+        </button>
+        <button (click)="clear()" class="button">
+            Clear
+        </button>
+    </div>
+
+    
+</div>
+<br>
+<h5>COPYUP @ KYXON KREATIVES</h5>
